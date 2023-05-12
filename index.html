@@ -7,10 +7,10 @@
   </head>
   <body>
     <a-scene embedded arjs>
-      <a-marker preset="custom" type="pattern" url="pattern-marker.patt">
+      <a-entity camera></a-entity>
+      <a-marker preset="custom" type="pattern" url="path/to/your/pattern-marker.patt">
         <a-entity gltf-model="model.gltf"></a-entity>
       </a-marker>
-      <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
